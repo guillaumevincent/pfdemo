@@ -1,6 +1,6 @@
 {
   "name": "pfdemo-vertical-navigation",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "PatternFly vertical navigation component",
   "style": "dist/css/pf-vertical-navigation.css",
   "sass": "scss/pf-vertical-navigation.scss",
