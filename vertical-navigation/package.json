@@ -1,0 +1,42 @@
+{
+  "name": "pfdemo-vertical-navigation",
+  "version": "3.0.0",
+  "description": "PatternFly vertical navigation component",
+  "style": "dist/css/pf-vertical-navigation.css",
+  "sass": "scss/pf-vertical-navigation.scss",
+  "scripts": {
+    "css": "npm-run-all --parallel css-lint css-compile",
+    "css-lint": "stylelint --config ./node_modules/bootstrap/build/.stylelintrc --syntax scss 'source/scss/**/*.scss'",
+    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/pf-vertical-navigation.scss dist/css/pf-vertical-navigation.css",
+    "test": "npm-run-all --parallel css",
+    "watch": "npm-run-all --parallel watch-css",
+    "watch-css": "nodemon --ignore dist/ -e scss -x \"npm run css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillaumevincent/patternfly-vertival-navigation.git"
+  },
+  "keywords": [
+    "patternfly",
+    "vertical-navigation"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/guillaumevincent/patternfly-vertival-navigation/issues"
+  },
+  "homepage": "https://github.com/guillaumevincent/patternfly-vertival-navigation#readme",
+  "devDependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.12.1",
+    "npm-run-all": "^4.1.1",
+    "patternfly": "^3.29.11",
+    "stylelint": "^8.1.1",
+    "stylelint-config-recommended-scss": "^2.0.0",
+    "stylelint-config-standard": "^17.0.0",
+    "stylelint-order": "^0.7.0",
+    "stylelint-scss": "^2.1.0"
+  },
+  "dependencies": {}
+}

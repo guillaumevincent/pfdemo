@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "pf-masthead.css",
+	"sources": [
+		"../../scss/pf-masthead.scss"
+	],
+	"sourcesContent": [
+		".pf-masthead {\n  background-color: #040404;\n  width: 100%;\n  margin-top: 0;\n\n  .pf-masthead__menu {\n    margin: 0;\n    padding: 0;\n    list-style: none;\n    display: flex;\n    flex-wrap: nowrap;\n    justify-content: space-around;\n  }\n\n  .pf-masthead__item {\n    flex-grow: 1;\n    flex-basis: 0;\n    text-align: center;\n\n    .pf-masthead__link {\n      text-decoration: none;\n      color: #eeeeee;\n      height: 60px;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n    }\n\n    &:hover {\n      background-color: #212121;\n    }\n  }\n\n}\n\n@media (min-width: 768px) {\n  .pf-masthead {\n    width: 100%;\n    position: fixed;\n    z-index: 1030;\n\n    &.vertical-navigation {\n      margin-left: 220px;\n      width: calc(100% - 220px);\n    }\n\n    .pf-masthead__menu {\n      justify-content: flex-end;\n    }\n\n    .pf-masthead__item {\n      flex-grow: 0;\n      flex-basis: auto;\n      text-align: center;\n      padding: 0 20px;\n    }\n  }\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,YAAY,CAAC;EACX,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,CAAC;CA+Bd;;AAlCD,AAKE,YALU,CAKV,kBAAkB,CAAC;EACjB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,MAAM;EACjB,eAAe,EAAE,YAAY;CAC9B;;AAZH,AAcE,YAdU,CAcV,kBAAkB,CAAC;EACjB,SAAS,EAAE,CAAC;EACZ,UAAU,EAAE,CAAC;EACb,UAAU,EAAE,MAAM;CAenB;;AAhCH,AAmBI,YAnBQ,CAcV,kBAAkB,CAKhB,kBAAkB,CAAC;EACjB,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,OAAO;EACd,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;CACxB;;AA3BL,AAcE,YAdU,CAcV,kBAAkB,AAehB,MAAO,CAAC;EACN,gBAAgB,EAAE,OAAO;CAC1B;;AAKL,MAAM,EAAE,SAAS,EAAE,KAAK;EACtB,AAAA,YAAY,CAAC;IACX,KAAK,EAAE,IAAI;IACX,QAAQ,EAAE,KAAK;IACf,OAAO,EAAE,IAAI;GAiBd;EApBD,AAKE,YALU,AAKV,oBAAqB,CAAC;IACpB,WAAW,EAAE,KAAK;IAClB,KAAK,EAAE,kBAAkB;GAC1B;EARH,AAUE,YAVU,CAUV,kBAAkB,CAAC;IACjB,eAAe,EAAE,QAAQ;GAC1B;EAZH,AAcE,YAdU,CAcV,kBAAkB,CAAC;IACjB,SAAS,EAAE,CAAC;IACZ,UAAU,EAAE,IAAI;IAChB,UAAU,EAAE,MAAM;IAClB,OAAO,EAAE,MAAM;GAChB"
+}
