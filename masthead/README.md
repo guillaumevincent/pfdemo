@@ -1,20 +1,10 @@
-# PatternFly masthead component
+# masthead component
 
-## Requirements
+## CSS
 
- * patternfly
+    <link rel="stylesheet" href="node_modules/pfdemo/dist/css/pf-masthead.css">    
 
-## Install
-
-    npm install pfdemo-masthead
-    
-## Import it
-
-### CSS
-
-    <link rel="stylesheet" href="node_modules/pfdemo-vertical-navigation/dist/css/pf-vertical-navigation.css">    
-
-### Template
+## Template
 
     <div class="pf-masthead">
         <ul class="pf-masthead__menu">
@@ -55,12 +45,3 @@ add `vertical-navigation` class if you use it with vertical navigation
     <div class="pf-masthead vertical-navigation">
     ...
     </div>
-
-
-## Tests
-
-    npm run test
-    
-## Watch mode
-
-    npm run watch

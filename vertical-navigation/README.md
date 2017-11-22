@@ -1,20 +1,10 @@
-# PatternFly vertical navigation component
+# vertical-navigation component
 
-## Requirements
+## CSS
 
- * patternfly
+    <link rel="stylesheet" href="node_modules/pfdemo/dist/css/pf-vertical-navigation.css">    
 
-## Install
-
-    npm install pfdemo-vertical-navigation
-    
-## Import it
-
-### CSS
-
-    <link rel="stylesheet" href="node_modules/pfdemo-vertical-navigation/dist/css/pf-vertical-navigation.css">    
-
-### Template
+## Template
 
     <div class="pf-vertical-nav">
         <div class="pf-vertical-nav__logo">
@@ -109,11 +99,3 @@ Be sure `pf-vertical-nav` parent element is an element with `height: 100%`
             </div>
         </div>
     </body>
-
-## Tests
-
-    npm run test
-    
-## Watch mode
-
-    npm run watch
