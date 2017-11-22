@@ -1,20 +1,20 @@
 {
-  "name": "pfdemo-vertical-navigation",
+  "name": "pfdemo",
   "version": "3.0.1",
-  "description": "PatternFly vertical navigation component",
-  "style": "dist/css/pf-vertical-navigation.css",
-  "sass": "scss/pf-vertical-navigation.scss",
+  "description": "PatternFly components demo",
+  "style": "dist/css/pfdemo.css",
+  "sass": "scss/pfdemo.scss",
   "scripts": {
     "css": "npm-run-all --parallel css-lint css-compile",
-    "css-lint": "stylelint --config ./node_modules/bootstrap/build/.stylelintrc --syntax scss 'source/scss/**/*.scss'",
-    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/pf-vertical-navigation.scss dist/css/pf-vertical-navigation.css",
+    "css-lint": "stylelint --config ./node_modules/bootstrap/build/.stylelintrc --syntax scss 'scss/**/*.scss'",
+    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/ -o dist/css/",
     "test": "npm-run-all --parallel css",
     "watch": "npm-run-all --parallel watch-css",
     "watch-css": "nodemon --ignore dist/ -e scss -x \"npm run css\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guillaumevincent/patternfly-vertival-navigation.git"
+    "url": "git+https://github.com/guillaumevincent/pfdemo.git"
   },
   "keywords": [
     "patternfly",
@@ -23,9 +23,9 @@
   "author": "",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/guillaumevincent/patternfly-vertival-navigation/issues"
+    "url": "https://github.com/guillaumevincent/pfdemo/issues"
   },
-  "homepage": "https://github.com/guillaumevincent/patternfly-vertival-navigation#readme",
+  "homepage": "https://github.com/guillaumevincent/pfdemo#readme",
   "devDependencies": {
     "bootstrap": "^4.0.0-beta.2",
     "node-sass": "^4.5.3",

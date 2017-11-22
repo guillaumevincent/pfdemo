@@ -1,0 +1,168 @@
+.pf-masthead {
+  background-color: #040404;
+  width: 100%;
+  margin-top: 0;
+}
+
+.pf-masthead .pf-masthead__menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.pf-masthead .pf-masthead__item {
+  flex-grow: 1;
+  flex-basis: 0;
+  text-align: center;
+}
+
+.pf-masthead .pf-masthead__item .pf-masthead__link {
+  text-decoration: none;
+  color: #eeeeee;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pf-masthead .pf-masthead__item:hover {
+  background-color: #212121;
+}
+
+@media (min-width: 768px) {
+  .pf-masthead {
+    width: 100%;
+    position: fixed;
+    z-index: 1030;
+  }
+  .pf-masthead.vertical-navigation {
+    margin-left: 293px;
+    width: calc(100% - 293px);
+  }
+  .pf-masthead .pf-masthead__menu {
+    justify-content: flex-end;
+  }
+  .pf-masthead .pf-masthead__item {
+    flex-grow: 0;
+    flex-basis: auto;
+    text-align: center;
+    padding: 0 20px;
+  }
+}
+
+.pf-vertical-nav {
+  width: 100%;
+  background: #292e34;
+  display: block;
+}
+
+.pf-vertical-nav .pf-vertical-nav__logo {
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #b4b4b4;
+  font-size: 2em;
+}
+
+.pf-vertical-nav .pf-vertical-nav__logo.bg-masthead {
+  background-color: #040404;
+  justify-content: flex-start;
+}
+
+.pf-vertical-nav .pf-vertical-nav__logo img {
+  max-width: 100%;
+}
+
+.pf-vertical-nav .pf-vertical-nav__category {
+  color: #b4b4b4;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+.pf-vertical-nav .pf-vertical-nav__menu {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.pf-vertical-nav .pf-vertical-nav__item {
+  background-color: transparent;
+  border-bottom: none;
+}
+
+.pf-vertical-nav .pf-vertical-nav__item:hover {
+  background-color: #393f44;
+}
+
+.pf-vertical-nav .pf-vertical-nav__item.active {
+  border-top: 1px solid #030303;
+  border-bottom: 1px solid #030303;
+}
+
+.pf-vertical-nav .pf-vertical-nav__item.active .pf-vertical-nav__link {
+  padding: 0 0 0 15px;
+  background-color: #393f44;
+  border-left: 5px solid #39a5dc;
+}
+
+.pf-vertical-nav .pf-vertical-nav__item.active .pf-vertical-nav__link i {
+  color: #39a5dc;
+}
+
+.pf-vertical-nav .pf-vertical-nav__link {
+  padding: 0 0 0 20px;
+  font-size: 14px;
+  display: block;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.pf-vertical-nav .pf-vertical-nav__link:hover {
+  text-decoration: none;
+}
+
+.pf-vertical-nav .pf-vertical-nav__link i {
+  margin-right: 10px;
+  color: #71757a;
+}
+
+.pf-vertical-nav .pf-vertical-nav__link, .pf-vertical-nav .pf-vertical-nav__category {
+  height: 60px;
+  line-height: 60px;
+}
+
+.pf-vertical-nav-sm .pf-vertical-nav__link, .pf-vertical-nav-sm .pf-vertical-nav__category {
+  height: 30px !important;
+  line-height: 30px !important;
+}
+
+@media (min-width: 768px) {
+  .pf-vertical-nav {
+    width: 293px;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 1030;
+    overflow: hidden;
+  }
+  .pf-main-content {
+    width: calc(100% - 293px);
+    padding-top: 60px;
+    height: auto;
+    min-height: 100%;
+    position: absolute;
+    right: 0;
+  }
+}
+
+/*# sourceMappingURL=pfdemo.css.map */

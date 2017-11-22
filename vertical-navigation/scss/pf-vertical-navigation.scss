@@ -1,3 +1,5 @@
+@import "../../scss/variables";
+
 .pf-vertical-nav {
   width: 100%;
   background: #292e34;
@@ -5,7 +7,7 @@
 
   .pf-vertical-nav__logo {
     display: flex;
-    height: 60px;
+    height: $masthead-height;
     justify-content: center;
     align-items: center;
     padding-left: 10px;
@@ -91,7 +93,7 @@
 
 @media (min-width: 768px) {
   .pf-vertical-nav {
-    width: 293px;
+    width: $vertical-nav-length;
     height: 100%;
     position: fixed;
     display: flex;
@@ -101,8 +103,8 @@
   }
 
   .pf-main-content {
-    width: calc(100% - 293px);
-    padding-top: 60px;
+    width: calc(100% - #{$vertical-nav-length});
+    padding-top: $masthead-height;
     height: auto;
     min-height: 100%;
     position: absolute;

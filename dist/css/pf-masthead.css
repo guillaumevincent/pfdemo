@@ -40,8 +40,8 @@
     z-index: 1030;
   }
   .pf-masthead.vertical-navigation {
-    margin-left: 220px;
-    width: calc(100% - 220px);
+    margin-left: 293px;
+    width: calc(100% - 293px);
   }
   .pf-masthead .pf-masthead__menu {
     justify-content: flex-end;
