@@ -5,6 +5,7 @@
   "style": "dist/css/pfdemo.css",
   "sass": "scss/pfdemo.scss",
   "scripts": {
+    "build": "npm run css",
     "css": "npm-run-all --parallel css-lint css-compile",
     "css-lint": "stylelint --config ./node_modules/bootstrap/build/.stylelintrc --syntax scss 'scss/**/*.scss'",
     "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/ -o dist/css/",
