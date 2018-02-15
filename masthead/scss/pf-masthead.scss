@@ -1,62 +1,87 @@
-@import "../../scss/variables";
+@import "../../node_modules/patternfly-sass/assets/stylesheets/patternfly/variables";
 
 .pf-masthead {
-  background-color: #040404;
+  background-color: $color-pf-black;
   width: 100%;
-  margin-top: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 
-  .pf-masthead__menu {
-    margin: 0;
+  a {
+    color: $color-pf-white;
+    text-decoration: none;
+  }
+}
+
+.pf-masthead__logo {
+  height: 60px;
+  line-height: 60px;
+  font-size: 1.5em;
+  padding: 0 1em;
+
+  a {
+    display: block;
     padding: 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
   }
 
-  .pf-masthead__item {
-    flex-grow: 1;
-    flex-basis: 0;
-    text-align: center;
-    border-left: 1px solid #2b2b2b;
-
-    .pf-masthead__link {
-      text-decoration: none;
-      color: #eeeeee;
-      height: $masthead-height;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-
-    &:hover {
-      background-color: #212121;
-    }
+  img {
+    height: calc(60px - 1em);
+    display: block;
+    margin-top: .5em;
   }
+}
 
+.pf-masthead__menu {
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  border-top: 1px solid $color-pf-black-900;
+}
+
+.pf-masthead__item {
+  flex: 1 1 0;
+}
+
+.pf-masthead__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border-left: 1px solid $color-pf-black-900;
+
+  &:hover {
+    background-color: $color-pf-black-900;
+  }
+}
+
+.pf-masthead__item:first-child .pf-masthead__link {
+  border-left: none;
+}
+
+.pf-masthead__icon {
+  display: block;
+}
+
+.pf-masthead__link-value {
+  display: block;
 }
 
 @media (min-width: 768px) {
   .pf-masthead {
-    width: 100%;
-    position: fixed;
-    z-index: 1030;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-    &.vertical-navigation {
-      margin-left: $vertical-nav-length;
-      width: calc(100% - #{$vertical-nav-length});
-    }
-
-    .pf-masthead__menu {
-      justify-content: flex-end;
-    }
-
-    .pf-masthead__item {
-      flex-grow: 0;
-      flex-basis: auto;
-      text-align: center;
-      padding: 0 20px;
-    }
+  .pf-masthead__link {
+    padding: 1em 2em;
+  }
+  .pf-masthead__menu {
+    border-top: none;
+  }
+  .pf-masthead__item:first-child .pf-masthead__link {
+    border-left: 1px solid $color-pf-black-900;
   }
 }

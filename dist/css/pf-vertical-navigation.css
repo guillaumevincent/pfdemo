@@ -91,6 +91,39 @@
 
 @media (min-width: 768px) {
   .pf-vertical-nav {
+    width: 75px;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 1030;
+    overflow: hidden;
+  }
+  .pf-main-content {
+    width: calc(100% - 75px);
+    padding-top: 60px;
+    height: auto;
+    min-height: 100%;
+    position: absolute;
+    right: 0;
+  }
+  .pf-vertical-nav__link {
+    padding: 0 !important;
+    text-align: center;
+  }
+  .pf-vertical-nav__link-value {
+    display: none;
+  }
+  .pf-vertical-nav__link i {
+    margin: 0 !important;
+  }
+  .pf-vertical-nav__category {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pf-vertical-nav {
     width: 293px;
     height: 100%;
     position: fixed;
