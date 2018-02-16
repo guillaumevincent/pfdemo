@@ -24,17 +24,23 @@ See components all together:
 
 directly in html, import the component you need
 
+```css
     <link rel="stylesheet" href="node_modules/pfdemo/dist/css/pf-vertical-navigation.css">
-    
+```
+
 or in your javascript code
 
+```javascript
     import 'pfdemo/dist/css/pf-vertical-navigation.css'
-    
+```
+
 then create associated template to the related component
 
+```html
     <div class="pf-vertical-nav">
         ...
     </div> 
+```
 
 ## Tests
 

@@ -2,7 +2,9 @@
 
 ## CSS
 
-    <link rel="stylesheet" href="node_modules/pfdemo/dist/css/pf-holy-grail-layout.css">    
+```css
+<link rel="stylesheet" href="node_modules/pfdemo/dist/css/pf-holy-grail-layout.css">    
+```
 
 ## Template
 
