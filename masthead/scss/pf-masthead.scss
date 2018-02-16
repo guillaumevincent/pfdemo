@@ -27,7 +27,7 @@
   img {
     height: calc(60px - 1em);
     display: block;
-    margin-top: .5em;
+    margin-top: 0.5em;
   }
 }
 
@@ -78,9 +78,11 @@
   .pf-masthead__link {
     padding: 1em 2em;
   }
+
   .pf-masthead__menu {
     border-top: none;
   }
+
   .pf-masthead__item:first-child .pf-masthead__link {
     border-left: 1px solid $color-pf-black-900;
   }

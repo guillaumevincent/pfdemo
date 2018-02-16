@@ -1,225 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Vertical navigation</title>
-    <link rel="stylesheet" href="../node_modules/patternfly/dist/css/patternfly.css">
+    <link rel="stylesheet" href="../dist/css/patternfly.css">
     <link rel="stylesheet" href="../dist/css/pf-vertical-navigation.css">
+    <style>
+        .sidebar {
+            border: 0;
+            bottom: 0;
+            margin: 0;
+            padding: 0;
+            position: fixed;
+            top: 60px;
+            width: 100%;
+        }
+
+        @media (min-width: 768px) {
+            .sidebar {
+                width: 100px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .sidebar {
+                width: 240px;
+            }
+        }
+    </style>
 </head>
+
 <body>
-<div class="pf-vertical-nav">
-    <div class="pf-vertical-nav__logo">
-        <h1>Awesome App</h1>
-    </div>
-    <div class="pf-vertical-nav__category">
-        First Category
-    </div>
-    <ul class="pf-vertical-nav__menu">
-        <li class="pf-vertical-nav__item active">
-            <a href="#0" class="pf-vertical-nav__link">
-                <i class="fa fa-fw fa-dashboard pf-icon"></i>
-                Lorem ipsum dolor
-            </a>
-        </li>
-        <li class="pf-vertical-nav__item">
-            <a href="#0" class="pf-vertical-nav__link">
-                <i class="fa fa-fw fa-shield pf-icon"></i>
-                Dolor
-            </a>
-        </li>
-        <li class="pf-vertical-nav__item">
-            <a href="#0" class="pf-vertical-nav__link">
-                <i class="fa fa-fw fa-graduation-cap pf-icon"></i>
-                Adipscing
-            </a>
-        </li>
-        <li class="pf-vertical-nav__item">
-            <a href="#0" class="pf-vertical-nav__link">
-                <i class="fa fa-fw fa-gamepad pf-icon"></i>
-                Lorem
-            </a>
-        </li>
-    </ul>
-    <div class="pf-vertical-nav__category">
-        Second Category
-    </div>
-    <ul class="pf-vertical-nav__menu">
-        <li class="pf-vertical-nav__item">
-            <a href="#0" class="pf-vertical-nav__link">
-                <i class="fa fa-fw fa-dashboard pf-icon"></i>
-                Lorem ipsum dolor
-            </a>
-        </li>
-        <li class="pf-vertical-nav__item">
-            <a href="#0" class="pf-vertical-nav__link">
-                <i class="fa fa-fw fa-shield pf-icon"></i>
-                Dolor
-            </a>
-        </li>
-        <li class="pf-vertical-nav__item">
-            <a href="#0" class="pf-vertical-nav__link">
-                <i class="fa fa-fw fa-graduation-cap pf-icon"></i>
-                Adipscing
-            </a>
-        </li>
-        <li class="pf-vertical-nav__item">
-            <a href="#0" class="pf-vertical-nav__link">
-                <i class="fa fa-fw fa-gamepad pf-icon"></i>
-                Lorem
-            </a>
-        </li>
-    </ul>
-</div>
-<div class="pf-main-content">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xs-6">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.            </div>
-            <div class="col-xs-6">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab atque et maiores modi nisi quas sapiente temporibus veniam? Amet blanditiis dignissimos error, explicabo itaque molestiae? Deleniti maxime odit repellendus tempora.
+    <div class="sidebar">
+        <div class="pf-vertical-nav">
+            <div class="pf-vertical-nav__category">
+                First Category
             </div>
+            <ul class="pf-vertical-nav__menu">
+                <li class="pf-vertical-nav__item active">
+                    <a href="#0" class="pf-vertical-nav__link">
+                        <i class="fa fa-fw fa-dashboard pf-icon"></i>
+                        <span class="pf-vertical-nav__link-value">Lorem ipsum dolor</span>
+                    </a>
+                </li>
+                <li class="pf-vertical-nav__item">
+                    <a href="#0" class="pf-vertical-nav__link">
+                        <i class="fa fa-fw fa-shield pf-icon"></i>
+                        <span class="pf-vertical-nav__link-value">Dolor</span>
+                    </a>
+                </li>
+                <li class="pf-vertical-nav__item">
+                    <a href="#0" class="pf-vertical-nav__link">
+                        <i class="fa fa-fw fa-graduation-cap pf-icon"></i>
+                        <span class="pf-vertical-nav__link-value">Adipscing</span>
+                    </a>
+                </li>
+                <li class="pf-vertical-nav__item">
+                    <a href="#0" class="pf-vertical-nav__link">
+                        <i class="fa fa-fw fa-gamepad pf-icon"></i>
+                        <span class="pf-vertical-nav__link-value">Lorem</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="pf-vertical-nav__category">
+                Second Category
+            </div>
+            <ul class="pf-vertical-nav__menu">
+                <li class="pf-vertical-nav__item">
+                    <a href="#0" class="pf-vertical-nav__link">
+                        <i class="fa fa-fw fa-dashboard pf-icon"></i>
+                        <span class="pf-vertical-nav__link-value">Lorem ipsum dolor</span>
+                    </a>
+                </li>
+                <li class="pf-vertical-nav__item">
+                    <a href="#0" class="pf-vertical-nav__link">
+                        <i class="fa fa-fw fa-shield pf-icon"></i>
+                        <span class="pf-vertical-nav__link-value">Dolor</span>
+                    </a>
+                </li>
+                <li class="pf-vertical-nav__item">
+                    <a href="#0" class="pf-vertical-nav__link">
+                        <i class="fa fa-fw fa-graduation-cap pf-icon"></i>
+                        <span class="pf-vertical-nav__link-value">Adipscing</span>
+                    </a>
+                </li>
+                <li class="pf-vertical-nav__item">
+                    <a href="#0" class="pf-vertical-nav__link">
+                        <i class="fa fa-fw fa-gamepad pf-icon"></i>
+                        <span class="pf-vertical-nav__link-value">Lorem</span>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
-</div>
 </body>
+
 </html>

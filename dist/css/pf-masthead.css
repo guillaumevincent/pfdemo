@@ -26,7 +26,7 @@
 .pf-masthead__logo img {
   height: calc(60px - 1em);
   display: block;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 .pf-masthead__menu {

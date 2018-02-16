@@ -8,7 +8,7 @@
     "build": "npm run css",
     "css": "npm-run-all --parallel css-lint css-compile css-patternfly",
     "css-patternfly": "mkdir -p dist/css/ dist/fonts/ && cp node_modules/patternfly/dist/css/patternfly.css dist/css/ && cp node_modules/patternfly/dist/fonts/* dist/fonts/",
-    "css-lint": "stylelint --config .stylelintrc --syntax scss 'scss/**/*.scss'",
+    "css-lint": "stylelint --config .stylelintrc --syntax scss '**/*.scss'",
     "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 scss/ -o dist/css/",
     "test": "npm-run-all --parallel css",
     "watch": "npm-run-all --parallel watch-css",

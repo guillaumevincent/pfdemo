@@ -1,152 +1,87 @@
-@import "../../scss/variables";
+@import "../../node_modules/patternfly-sass/assets/stylesheets/patternfly/variables";
 
 .pf-vertical-nav {
   width: 100%;
   background: #292e34;
   display: block;
+  color: $color-pf-white;
+  padding-bottom: 1em;
+  height: 100%;
+}
 
-  .pf-vertical-nav__logo {
-    display: flex;
-    height: $masthead-height;
-    justify-content: center;
-    align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #b4b4b4;
-    font-size: 2em;
+.pf-vertical-nav a {
+  color: $color-pf-white;
+  text-decoration: none;
+}
 
-    &.bg-masthead {
-      background-color: #040404;
-      justify-content: flex-start;
-    }
+.pf-vertical-nav__menu {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
 
-    img {
-      max-width: 100%;
-    }
+.pf-vertical-nav__category {
+  padding: 1.5em 0 0.5em 1em;
+  text-transform: uppercase;
+  color: $color-pf-black-400;
+}
+
+.pf-vertical-nav__link {
+  display: block;
+  padding: 0.5em 1em 0.5em 1.5em;
+
+  &:hover {
+    background-color: $color-pf-black-800;
   }
 
-  .pf-vertical-nav__category {
-    color: #b4b4b4;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    padding-left: 10px;
-    text-transform: uppercase;
+  i {
+    margin-right: 0.5em;
   }
+}
 
-  .pf-vertical-nav__menu {
-    margin: 0;
-    list-style: none;
-    padding: 0;
-  }
+.pf-vertical-nav__item {
+  &.active {
+    border-top: 1px solid $color-pf-black;
+    border-bottom: 1px solid $color-pf-black;
 
-  .pf-vertical-nav__item {
-    background-color: transparent;
-    border-bottom: none;
+    .pf-vertical-nav__link {
+      border-left: 5px solid $color-pf-blue-300;
+      padding: 0.5em 1em 0.5em calc(1.5em - 5px);
 
-    &:hover {
-      background-color: #393f44;
-    }
-
-    &.active {
-      border-top: 1px solid #030303;
-      border-bottom: 1px solid #030303;
-
-      .pf-vertical-nav__link {
-        padding: 0 0 0 15px;
-        background-color: #393f44;
-        border-left: 5px solid #39a5dc;
-      }
-
-      .pf-vertical-nav__link i {
-        color: #39a5dc;
+      i {
+        color: $color-pf-blue-400;
       }
     }
+  }
+}
+
+@media (min-width: 480px) and (max-width: 960px) {
+  .pf-vertical-nav {
+    width: 100px;
   }
 
   .pf-vertical-nav__link {
-    padding: 0 0 0 20px;
-    font-size: 14px;
-    display: block;
-    cursor: pointer;
-    color: #ffffff;
-    &:hover {
-      text-decoration: none;
-    }
-    i {
-      margin-right: 10px;
-      color: #71757a;
-    }
-  }
-
-  .pf-vertical-nav__link, .pf-vertical-nav__category {
-    height: 60px;
-    line-height: 60px;
-  }
-}
-
-.pf-vertical-nav-sm {
-  .pf-vertical-nav__link, .pf-vertical-nav__category {
-    height: 30px !important;
-    line-height: 30px !important;
-  }
-}
-
-@media (min-width: 768px) {
-  .pf-vertical-nav {
-    width: $vertical-nav-length-tablet;
-    height: 100%;
-    position: fixed;
     display: flex;
     flex-direction: column;
-    z-index: 1030;
-    overflow: hidden;
-  }
-
-  .pf-main-content {
-    width: calc(100% - #{$vertical-nav-length-tablet});
-    padding-top: $masthead-height;
-    height: auto;
-    min-height: 100%;
-    position: absolute;
-    right: 0;
-  }
-
-  .pf-vertical-nav__link{
-    padding: 0!important;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-  }
+    padding: 1em;
 
-  .pf-vertical-nav__link-value{
-    display: none
-  }
-
-  .pf-vertical-nav__link i {
-    margin: 0!important;
+    i {
+      margin: 0;
+      display: block;
+    }
   }
 
   .pf-vertical-nav__category {
-    display: none;
+    text-align: center;
+    padding: 1em;
   }
-
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   .pf-vertical-nav {
-    width: $vertical-nav-length;
-    height: 100%;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    z-index: 1030;
-    overflow: hidden;
-  }
-
-  .pf-main-content {
-    width: calc(100% - #{$vertical-nav-length});
-    padding-top: $masthead-height;
-    height: auto;
-    min-height: 100%;
-    position: absolute;
-    right: 0;
+    width: 240px;
   }
 }
