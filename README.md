@@ -2,6 +2,16 @@
 
 POC patternfly css components "à la carte"
 
+## Demo
+
+ * [holy-grail-layout](https://rawgit.com/guillaumevincent/pfdemo/master/holy-grail-layout/index.html) ([documentation](/holy-grail-layout))
+ * [masthead](https://rawgit.com/guillaumevincent/pfdemo/master/masthead/index.html) ([documentation](/masthead))
+ * [vertical-navigation](https://rawgit.com/guillaumevincent/pfdemo/master/vertical-navigation/index.html) ([documentation](/vertical-navigation))
+
+See components all together:
+
+ * [pfdemo](https://rawgit.com/guillaumevincent/pfdemo/master/index.html)
+
 ## Requirements
 
  * patternfly
@@ -25,12 +35,6 @@ then create associated template to the related component
     <div class="pf-vertical-nav">
         ...
     </div> 
-
-## Available components
-
- * [holy-grail-layout](/holy-grail-layout)
- * [masthead](/masthead)
- * [vertical-navigation](/vertical-navigation)
 
 ## Tests
 
