@@ -168,7 +168,7 @@
   grid-area: sidebar;
 }
 
-.pf-main-content {
+.pf-content {
   grid-area: content;
 }
 
@@ -181,7 +181,6 @@
   grid-template-columns: 100%;
   grid-template-rows: auto auto 1fr;
   grid-template-areas: "header" "sidebar" "content";
-  color: #444;
   width: 100vw;
   height: 100vh;
 }

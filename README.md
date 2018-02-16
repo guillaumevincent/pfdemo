@@ -22,12 +22,13 @@ or in your javascript code
     
 then create associated template to the related component
 
-    <div class="pf-vertical-nav pf-vertical-nav-sm">
+    <div class="pf-vertical-nav">
         ...
     </div> 
 
 ## Available components
 
+ * [holy-grail-layout](/holy-grail-layout)
  * [masthead](/masthead)
  * [vertical-navigation](/vertical-navigation)
 

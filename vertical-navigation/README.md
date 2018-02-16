@@ -7,23 +7,32 @@
 ## Template
 
     <div class="pf-vertical-nav">
-        <div class="pf-vertical-nav__logo">
-            <img src="images/logo.svg" alt="">
-        </div>
         <div class="pf-vertical-nav__category">
             First Category
         </div>
         <ul class="pf-vertical-nav__menu">
             <li class="pf-vertical-nav__item active">
                 <a href="#0" class="pf-vertical-nav__link">
-                    <i class="fa fa-fw fa-dashboard"></i>
-                    Lorem ipsum dolor
+                    <i class="fa fa-fw fa-dashboard pf-icon"></i>
+                    <span class="pf-vertical-nav__link-value">Lorem ipsum dolor</span>
                 </a>
             </li>
             <li class="pf-vertical-nav__item">
                 <a href="#0" class="pf-vertical-nav__link">
-                    <i class="fa fa-fw fa-shield"></i>
-                    Dolor
+                    <i class="fa fa-fw fa-shield pf-icon"></i>
+                    <span class="pf-vertical-nav__link-value">Dolor</span>
+                </a>
+            </li>
+            <li class="pf-vertical-nav__item">
+                <a href="#0" class="pf-vertical-nav__link">
+                    <i class="fa fa-fw fa-graduation-cap pf-icon"></i>
+                    <span class="pf-vertical-nav__link-value">Adipscing</span>
+                </a>
+            </li>
+            <li class="pf-vertical-nav__item">
+                <a href="#0" class="pf-vertical-nav__link">
+                    <i class="fa fa-fw fa-gamepad pf-icon"></i>
+                    <span class="pf-vertical-nav__link-value">Lorem</span>
                 </a>
             </li>
         </ul>
@@ -33,69 +42,27 @@
         <ul class="pf-vertical-nav__menu">
             <li class="pf-vertical-nav__item">
                 <a href="#0" class="pf-vertical-nav__link">
-                    <i class="fa fa-fw fa-dashboard"></i>
-                    Lorem ipsum dolor
+                    <i class="fa fa-fw fa-dashboard pf-icon"></i>
+                    <span class="pf-vertical-nav__link-value">Lorem ipsum dolor</span>
                 </a>
             </li>
             <li class="pf-vertical-nav__item">
                 <a href="#0" class="pf-vertical-nav__link">
-                    <i class="fa fa-fw fa-shield"></i>
-                    Dolor
+                    <i class="fa fa-fw fa-shield pf-icon"></i>
+                    <span class="pf-vertical-nav__link-value">Dolor</span>
                 </a>
             </li>
             <li class="pf-vertical-nav__item">
                 <a href="#0" class="pf-vertical-nav__link">
-                    <i class="fa fa-fw fa-graduation-cap"></i>
-                    Adipscing
+                    <i class="fa fa-fw fa-graduation-cap pf-icon"></i>
+                    <span class="pf-vertical-nav__link-value">Adipscing</span>
                 </a>
             </li>
             <li class="pf-vertical-nav__item">
                 <a href="#0" class="pf-vertical-nav__link">
-                    <i class="fa fa-fw fa-gamepad"></i>
-                    Lorem
+                    <i class="fa fa-fw fa-gamepad pf-icon"></i>
+                    <span class="pf-vertical-nav__link-value">Lorem</span>
                 </a>
             </li>
         </ul>
     </div>
-    <div class="pf-main-content">
-    </div>
-
-
-## Options
-
-### small links
-
-add `pf-vertical-nav-sm` class
-
-    <div class="pf-vertical-nav pf-vertical-nav-sm">
-    </div>
-    
-### masthead title
-
-if you use vertical navigation component in conjunction with masthead component you can add `bg-masthead` class to the logo.   
-
-    <div class="pf-vertical-nav__logo bg-masthead">
-        <img src="images/logo.svg" alt="">
-    </div>
-    
-## Known errors
-
-### 100% height
-
-Be sure `pf-vertical-nav` parent element is an element with `height: 100%`
-
-    <body>
-        <div class="pf-vertical-nav">
-        </div>
-        <div class="pf-main-content">
-        </div>
-    </body>
-    
-    <body>
-        <div class="my-container" style="height:100%;">
-            <div class="pf-vertical-nav">
-            </div>
-            <div class="pf-main-content">
-            </div>
-        </div>
-    </body>

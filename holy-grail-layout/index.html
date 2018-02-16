@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Masthead</title>
+    <link rel="stylesheet" href="../dist/css/patternfly.css">
+    <link rel="stylesheet" href="../dist/css/pf-holy-grail-layout.css">
+    <style>
+        .pf-header {
+            background-color: #582fc0;
+            height: 60px;            
+        }
+
+        .pf-sidebar {
+            background-color: #795600;
+        }
+
+        .pf-content {
+            background-color: #2d7623;
+        }
+
+        @media (min-width: 480px) {
+            .pf-sidebar {
+                width:100px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .pf-sidebar {
+                width: 240px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="pf-grid">
+        <div class="pf-header">
+            header
+        </div>
+        <div class="pf-sidebar">
+            sidebar
+        </div>
+        <div class="pf-content">
+            content
+        </div>
+    </div>
+</body>
+
+</html>
