@@ -121,8 +121,9 @@
   background-color: #393f44;
 }
 
-.pf-vertical-nav__link i {
+.pf-vertical-nav__icon {
   margin-right: 0.5em;
+  color: #72767b;
 }
 
 .pf-vertical-nav__item.active {
@@ -135,7 +136,7 @@
   padding: 0.5em 1em 0.5em calc(1.5em - 5px);
 }
 
-.pf-vertical-nav__item.active .pf-vertical-nav__link i {
+.pf-vertical-nav__item.active .pf-vertical-nav__link .pf-vertical-nav__icon {
   color: #0088ce;
 }
 
@@ -151,7 +152,7 @@
     text-align: center;
     padding: 1em;
   }
-  .pf-vertical-nav__link i {
+  .pf-vertical-nav__icon {
     margin: 0;
     display: block;
   }
