@@ -1,6 +1,6 @@
 {
   "name": "pfdemo",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "PatternFly components demo",
   "style": "dist/css/pfdemo.css",
   "sass": "scss/pfdemo.scss",
