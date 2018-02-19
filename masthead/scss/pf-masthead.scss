@@ -75,6 +75,10 @@
     justify-content: space-between;
   }
 
+  .pf-masthead__item {
+    flex-basis: auto;
+  }
+
   .pf-masthead__link {
     padding: 1em 2em;
   }
